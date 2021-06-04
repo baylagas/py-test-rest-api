@@ -7,4 +7,4 @@ class Person(Resource):
         logic = PersonLogic()
         result = logic.getAllPerson()
         print(result)
-        return {"data": "hello world"}, 200
+        return result, 200
